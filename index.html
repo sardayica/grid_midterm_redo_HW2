@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Optimist</title>
+
+    <style>
+        /** {outline: solid 5px red;}*/
+        body {
+            background: brown;
+            font: italic 1.2em "Fira Sans", serif;
+            color: white;
+            width: 97vw;
+            max-width: 97vw;
+            padding: 10px;
+        }
+
+        a:link {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: brown;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: white;
+            text-decoration: none;
+        }
+
+        header,
+        footer {
+            padding: 10px;
+        }
+
+      .container {
+        height: 100%;
+        background-color: brown;
+        display: grid;
+        grid-template-areas:
+            "header header header"
+            "nav content sidebar"
+            "footer footer footer";
+        grid-template-columns: 1.15fr 3fr 1fr;
+        gap: 20px;
+        /* Question, how do I make 2 content sections? */
+      }
+
+      header {
+        padding: 10px;
+        background-color: black;
+        grid-area: header;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        border: dotted 4px white;
+      }
+
+      header > div {
+        width: fit-content;
+        margin: auto;
+        height: 100%;
+        font-size: 5.5vw;
+      }
+
+      header > div > p {
+        width: fit-content;
+        margin: auto;
+        height: 100%;
+        font-size: 25px;
+        color: grey;
+      }
+
+      article {
+        border: dotted 4px white;
+        padding: 10px;
+        background-color: black;
+        grid-area: content;
+      }
+
+      aside {
+        border: dotted 4px white;
+        padding: 10px;
+        background-color: black;
+        grid-area: sidebar;
+      }
+
+      nav {
+        border: dotted 4px white;
+        padding: 10px;
+        background-color: black;
+        grid-area: nav;
+      }
+
+      footer {
+        border: dotted 4px white;
+        background-color: black;
+        text-align: center;
+        grid-area: footer;
+      } 
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                &#10036 OPTIMIST BY FINNEAS &#10036
+                <br>
+                <p>Released 2021 &#10036 13 songs</p>
+            </div>
+        </header>
+
+        <nav>
+            <h2>Navigation</h2>
+            <p>
+                &#10036
+                <a href="#p1">Playlist</a>
+                &#10036
+                <br><br>
+                &#10036
+                <a href="#p2">Favorite Songs</a>
+                &#10036
+                <br><br>
+                &#10036
+                <a href="#p3">Other Good Songs by Finneas</a>
+                &#10036
+            </p>
+            <br>
+            <img src="Finneas-Optimist.jpeg" title="Album Cover for Optimist" alt="Album Cover for Optimist" width="100%" height="250">
+        </nav>
+
+        <aside>
+            <div id="sascontainer">
+                <h3 id="p1">&#10036 Playlist &#10036</h3>
+        
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3KChz6qdEH9AfHE6VCBshZ?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        
+                <ol class="sidebyside">
+                    <li>A Concert Six Months From Now</li>
+                    <li>The Kids Are All Dying</li>
+                    <li>Happy Now?</li>
+                    <li>Only A Lifetime</li>
+                    <li>The 90s</li>
+                    <li>Love Is Pain</li>
+                    <li>Peaches Etude</li>
+                    <li>Hurt Locker</li>
+                    <li>Medieval</li>
+                    <li>Someone Else's Star</li>
+                    <li>Around My Neck</li>
+                    <li>What They'll Say About Us</li>
+                    <li>How It Ends</li>
+                </ol>  
+
+                <br style="height: 0px; clear: both;">
+        
+                <div class="text">
+                <a style="color:brown;" href="https://www.youtube.com/watch?v=VXGuGI4JB94&t=29s" title="video of playlist review" target="_blank" alt="link to video of playlist review">~Link to a reaction channel listening to the album~</a>
+                </div>                    
+            </div>
+        </aside>
+
+        <article>
+            <div id="sbscontainer">
+                <h3 id="p2">&#10036 Favorite Songs &#10036</h3>
+                    <div class="sidebyside2">
+                        <p style="color:brown;"><strong>Medieval</strong>
+                            <br>
+                            <p>I love the flow and intensity of this song. It's creepy and synical from the name alone, especially amongst the other seemingly normal song titles. The lyrics are about the ebs and flows of popularity as someone in the spotlight, especially highlighting the differnces between Finneas and Billy's fame.</p>
+                        </p>
+                    </div>
+        
+                    <div class="sidebyside2">
+                        <p style="color:brown;"><strong>The 90s</strong>
+                            <br>
+                            <p>Once again I adore the flow and beats of this song. It's an upbeat, retro type of sound that's fun to listen too. I equally like the lyrics, which are about timess before the internet and being a kid who grew up in the transition into modern day media. Reminicing on how simple life used to be, and how much potential and hope Finneas had for his future.</p>
+                        </p>
+                    </div>
+        
+                    <div class="sidebyside2">
+                        <p style="color:brown;"><strong>Happy Now?</strong>
+                            <br>
+                            <p>The lyrics of this song start off sardonic and pessimistic, talking about how Finneas seems to have everything so why isn't he happy yet? Then it switches the pace and beat to an upbeat song. The switch up is to lighten the mood and kind of make fun of himself for complaining so much when he really does have it pretty good with his fancy car and such. It brings light to the ups and downs of his life and being famous.</p>
+                        </p>
+                    </div>
+            </div>
+
+            <div id="scscontainer">
+                <h3 id="p3">&#10036 Other Good Songs by Finneas &#10036</h3>
+        
+                    <div class="sidebyside3">
+                        <img src="hate_to_be_lame.jpeg" title="hate to be lame" alt="hate to be lame album cover image" width="200" height="200">
+                    </div> 
+                    
+                    <div class="sidebyside4">
+                        <p>
+                            <strong style="width: 500px;">hate to be lame - Lizzy McAlpine, FINNEAS</strong> 
+                        </p>
+                    </div>
+                
+                    <div class="sidebyside4">
+                        <p style="font-size: small; color: brown;">
+                            Single &#10036 2022
+                        </p>
+                    </div>
+                
+                    <div class="sidebyside5">
+                        <p>
+                            Longing for your lover song to get you in your feels. Their voices really compliment each other. Intense moments, they're taking you through learning what love is with your partner and the confusion and apprehension that comes with that.
+                        </p>
+                    </div> 
+        
+                    <div class="sidebyside3">
+                        <img src="monalisa.jpg" title="Mona Lisa, Mona Lisa" alt="Mona Lisa, Mona Lisa album cover image" width="200" height="200">
+                    </div>
+        
+                    <div class="sidebyside4">
+                        <p>
+                            <strong>Mona Lisa, Mona Lisa - FINNEAS</strong>
+                        </p>
+                    </div>
+        
+                    <div class="sidebyside4">
+                        <p style="font-size: small; color: brown;">Single &#10036 2022
+                        </p>
+                    </div>
+                
+                    <div class="sidebyside5">
+                        <p>
+                            Finneas is dating Claudia Sulewski, and this song is about how much he adores her. Claudia is a youtuber who I've been watching for a number of years, knew her before Finneas, and it's just such a sweet song. She's even in the music video and the lyrics are just everything you want from a love song.
+                        </p>
+                    </div>
+            </div>
+        
+            <br style="height: 0px; clear: both;">
+        
+            <div class="text2">
+            <a style="color: brown;" href="https://www.youtube.com/@ClaudiaSulewski/videos" title="Claudia's Youtube Channel" target="_blank" alt="link to Claudia's Youtube Channel"><em>~Link to Claudia's Youtube Channel~</em></a>
+            </div>
+            </div>
+
+        </article>
+
+        <footer>&#10036 Jessica Scott &#10036</footer>
+    </div>    
+
+</body>
+</html>

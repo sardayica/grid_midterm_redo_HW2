@@ -1,0 +1,82 @@
+h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.sidebyside {
+    text-align: center;
+    outline: solid 2px brown;
+}
+
+#sascontainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebyside2 {
+    text-align: left;
+    padding: 1em;
+} 
+
+#sbscontainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#scscontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    margin-top: 10em;
+}
+
+.sidebyside3 {
+    float: left;
+} 
+
+.sidebyside4 {
+    float: left;
+    width: 500px;
+    margin-left: 20px;
+} 
+
+.sidebyside5 {
+    float: left;
+    width: 500px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+} 
+
+/*
+
+#sdscontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    margin-top: 10em;
+}
+
+.sidebyside5 {
+    float: left;
+} 
+
+.sidebyside6 {
+    float: left;
+    width: 500px;
+    margin-left: 20px;
+} 
+
+*/
+
+.text {
+    text-align: center;
+}
+
+.text2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+li {
+    padding: 5px;
+}
